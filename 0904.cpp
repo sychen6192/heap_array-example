@@ -16,7 +16,8 @@ for(int i = 0; i < data_height; i++)
 
 for(int i=0;i < data_height; i++){
     for(int j=0;j < data_width; j++){
-         cout << "i=" << i << "\t" <<"j=" << j << endl;
+         data[i][j]=i + j;
+         cout << "i=" << i <<" j=" << j << " i+j=" << data[i][j] << endl;
     }
 }
 
